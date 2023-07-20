@@ -16,7 +16,7 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            A MERN Stack Developer based in Silchar, India. As a diligent, approachable and empathetic person, passionate about my work and learning new things and excited to
+            A Frontend Developer based in Silchar, India. As a diligent, approachable and empathetic person, passionate about my work and learning new things and excited to
             prove my technical and problem-solving skills for my self-growth as well as for the growth of the community. <br></br>
             <br></br>
           </p>

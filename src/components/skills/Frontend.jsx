@@ -17,13 +17,7 @@ const Frontend = () => {
               <span className="skills__level">Advance</span>
             </div>
           </div>
-          <div className="skills__data">
-            <SiMui />
-            <div>
-              <h3 className="skills__name">Material - UI</h3>
-              <span className="skills__level">Advance</span>
-            </div>
-          </div>
+          
           <div className="skills__data">
             {/* <i class="bx bxl-css3"></i> */}
               <i class='bx bxl-tailwind-css'></i>
@@ -56,13 +50,7 @@ const Frontend = () => {
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
-          <div className="skills__data">
-            <i class='bx bxl-redux'></i>
-            <div>
-              <h3 className="skills__name">Redux</h3>
-              <span className="skills__level">Intermediate</span>
-            </div>
-          </div>
+          
           <div className="skills__data">
             <i class="bx bxl-git"></i>
             <div>

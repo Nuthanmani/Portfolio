@@ -15,31 +15,19 @@ export const projectsData = [
   {
     id: 2,
     image: Work1,
-    title: "Social Media Website",
+    title: "Blockchain Project",
     category: "web",
-    link: "https://network-frontend.onrender.com/",
+    link: "https://fund-allocation-and-tracking-using-block-chain.vercel.app/",
   },
-  {
-    id: 3,
-    image: Work2,
-    title: "Client Management Dashboard",
-    category: "web",
-    link: "https://hemanth307.github.io/ADMIN-DASHBOARD/",
-  },
-  {
-    id: 4,
-    image: Work3,
-    title: "Food Ordering UI",
-    category: "web",
-    link: "https://hemanth307.github.io/Food-Website/",
-  },
-  // {
-  //   id: 5,
-  //   image: Work4,
-  //   title: "Data Visualization",
-  //   category: "app",
-  //   link: "https://drive.google.com/drive/folders/1Ue8N_yMWO2H1ZhD8KaieDEsesj5cQFra?usp=share_link",
-  // },
+  
+  
+   {
+     id: 5,
+     image: Work4,
+     title: "Data Visualization",
+     category: "app",
+     link: "https://drive.google.com/drive/folders/1Ue8N_yMWO2H1ZhD8KaieDEsesj5cQFra?usp=share_link",
+   },
 ];
 
 export const projectsNav = [

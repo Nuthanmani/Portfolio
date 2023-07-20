@@ -25,7 +25,7 @@ const Qualification = () => {
             onClick={() => toggleTab(1)}
           >
             <i className="uil uil-graduation-cap qualification__icon"></i>{" "}
-            Experience
+            Education
           </div>
           <div
             className={
@@ -36,14 +36,14 @@ const Qualification = () => {
             onClick={() => toggleTab(2)}
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>{" "}
-            Education
+            Experience
           </div>
         </div>
 
         <div className="qualification__sections">
           <div
             className={
-              toggleState === 2
+              toggleState === 1
                 ? "qualification__content qualification__content-active "
                 : "qualification__content "
             }
@@ -75,22 +75,22 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">12th (BIEAP)</h3>
                 <span className="qualification__subtitle">
-                  Sasi Junior College, Velivennu
+                Shastra Junior College, Vijayawada
                 </span>
                 <div className="qualification__calander">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2019
+                  <i className="uil uil-calendar-alt"></i> 2018-20
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">10th CBSE</h3>
+                <h3 className="qualification__title">10th</h3>
                 <span className="qualification__subtitle">
-                  Sasi EM School, Nallajarla
+                Oxford high School, Dachepalli
                 </span>
                 <div className="qualification__calander">
-                  <i className="uil uil-calendar-alt"></i> 2016 - 2017
+                  <i className="uil uil-calendar-alt"></i> 2017-18
                 </div>
               </div>
 
@@ -102,7 +102,7 @@ const Qualification = () => {
           </div>
           <div
             className={
-              toggleState === 1
+              toggleState === 2
                 ? "qualification__content qualification__content-active button--flex"
                 : "qualification__content button--flex"
             }
@@ -110,7 +110,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  Research Intern
+                  BlockChain Developer
                 </h3>
                 <span className="qualification__subtitle">NIT SILCHAR</span>
                 <div className="qualification__calander">
@@ -122,23 +122,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">ReactJS Developer</h3>
-                <span className="qualification__subtitle">
-                  Lejhro
-                </span>
-                <div className="qualification__calander">
-                  <i className="uil uil-calendar-alt"></i> july 2023 - present
-                </div>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>

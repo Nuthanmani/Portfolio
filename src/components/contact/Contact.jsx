@@ -12,7 +12,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-      'service_9q7wj0l', 'template_5y9ll2e', form.current, 'vsyaDSrp4DaDOSLjt'
+      'service_2fdu23m', 'template_y7ao4p8', form.current, '65XXkxKm4IGkacFVJ'
       )
       .then(
         (result) => {
@@ -43,7 +43,7 @@ const Contact = () => {
 
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">
-                akulahemanth307@gmail.com
+                nuthanmanideep@gmail.com
               </span>
             </div>
 
@@ -51,15 +51,10 @@ const Contact = () => {
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">+91 9100876163</span>
+              <span className="contact__card-data">+91 8688375746</span>
             </div>
 
-            <div className="contact__card">
-              <i className="bx bxl-discord-alt contact__card-icon"></i>
-
-              <h3 className="contact__card-title">Discord</h3>
-              <span className="contact__card-data">BEAST_307#1558</span>
-            </div>
+            
           </div>
         </div>
         <div className="contact__content">
